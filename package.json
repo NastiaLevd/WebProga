@@ -1,0 +1,17 @@
+{
+  "name": "library-api",
+  "version": "1.0.0",
+  "description": "REST API для библиотеки с собственным фреймворком",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test.js",
+    "dev": "node app.js"
+  },
+  "keywords": ["framework", "rest-api", "library", "nodejs", "custom-framework"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}

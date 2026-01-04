@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "Rouge Dior Помада",
+    "brandId": 1,
+    "price": 3500,
+    "category": "Помада",
+    "isOrganic": false,
+    "rating": 4.8,
+    "manufactureDate": "2023-11-15",
+    "tags": [
+      "хит",
+      "классика"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "MAC Ruby Woo Губная помада",
+    "brandId": 2,
+    "price": 1800,
+    "category": "Помада",
+    "isOrganic": false,
+    "rating": 4.9,
+    "manufactureDate": "2023-10-05",
+    "tags": [
+      "матовая",
+      "стойкая"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Maybelline Fit Me Foundation",
+    "brandId": 3,
+    "price": 650,
+    "category": "Тональный крем",
+    "isOrganic": false,
+    "rating": 4.5,
+    "manufactureDate": "2023-09-20",
+    "tags": [
+      "матовый финиш",
+      "бюджетно"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Chanel Le Volume de Chanel Тушь",
+    "brandId": 4,
+    "price": 2800,
+    "category": "Тушь",
+    "isOrganic": false,
+    "rating": 4.7,
+    "manufactureDate": "2023-12-01",
+    "tags": [
+      "объем",
+      "черная"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "brandId": 5,
+    "price": 580,
+    "category": "Сыворотка",
+    "isOrganic": true,
+    "rating": 4.6,
+    "manufactureDate": "2023-08-15",
+    "tags": [
+      "акне",
+      "веган",
+      "хит"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "MAC Studio Fix Powder",
+    "brandId": 2,
+    "price": 2200,
+    "category": "Пудра",
+    "isOrganic": false,
+    "rating": 4.7,
+    "manufactureDate": "2023-07-22",
+    "tags": [
+      "плотное покрытие"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "The Ordinary Hyaluronic Acid 2% + B5",
+    "brandId": 5,
+    "price": 620,
+    "category": "Сыворотка",
+    "isOrganic": true,
+    "rating": 4.9,
+    "manufactureDate": "2023-11-30",
+    "tags": [
+      "увлажнение",
+      "веган"
+    ]
+  },
+  {
+    "name": "Тушь для ресниц",
+    "brandId": 1,
+    "price": 295,
+    "category": "Косметика",
+    "isOrganic": false,
+    "rating": 4.5,
+    "manufactureDate": "2026-01-04",
+    "tags": [
+      "random",
+      "new"
+    ],
+    "id": 9
+  }
+]

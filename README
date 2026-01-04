@@ -1,0 +1,42 @@
+Helena
+
+- GET  - Информация о API и доступные маршруты
+- PUT - полностью заменяет ресурс (все поля обязательны)
+- PATCH- частично обновляет только переданные поля
+- При отправке POST запросов без тела будут сгенерированы случайные данные
+  - Для книг: случайные названия, авторы, жанры, теги и рейтинги
+  - Для авторов: случайные имена, годы рождения, национальности и награды
+
+GET http://localhost:3000/books
+
+POST http://localhost:3000/books
+Content-Type application/json
+
+PATCH http://localhost:3000/books/1
+Content-Type  application/json
+{
+  "title": "Новое название",
+  "rating": 5
+}
+
+DELETE http://localhost:3000/books/3
+
+
+Книги (Books)
+- GET /books - Получить список всех книг
+- GET /books/:id - Получить книгу по ID
+- POST /books - Создать новую книгу
+- PUT /books/:id - Полностью обновить книгу
+- PATCH /books/:id - Частично обновить книгу
+- DELETE /books/:id - Удалить книгу
+
+
+- GET /authors - Получить список всех авторов
+- GET /authors/:id - Получить автора по ID
+- POST /authors - Создать нового автора
+- PUT /authors/:id - Полностью обновить автора
+- PATCH /authors/:id - Частично обновить автора
+- DELETE /authors/:id - Удалить автора
+- GET /test-req-res - Проверка работы методов req/res
+
+Helena
