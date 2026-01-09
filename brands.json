@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Dior Beauty",
+    "country": "Франция",
+    "tier": "Люкс"
+  },
+  {
+    "id": 2,
+    "name": "MAC Cosmetics",
+    "country": "США",
+    "tier": "Премиум"
+  },
+  {
+    "id": 3,
+    "name": "Maybelline",
+    "country": "США",
+    "tier": "Масс-маркет"
+  },
+  {
+    "id": 4,
+    "name": "Chanel",
+    "country": "Франция",
+    "tier": "Люкс"
+  },
+  {
+    "id": 5,
+    "name": "The Ordinary",
+    "country": "Канада",
+    "tier": "Бюджетный"
+  }
+]

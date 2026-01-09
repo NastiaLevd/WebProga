@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Иван Петров",
+    "experience": 5,
+    "isAvailable": true,
+    "hireDate": "2019-03-15",
+    "specializations": ["силовые", "кардио"]
+  },
+  {
+    "id": 2,
+    "name": "Анна Смирнова",
+    "experience": 8,
+    "isAvailable": false,
+    "hireDate": "2017-06-01",
+    "specializations": ["йога", "растяжка"]
+  },
+  {
+    "id": 3,
+    "name": "Дмитрий Степанов",
+    "experience": 3,
+    "isAvailable": true,
+    "hireDate": "2021-11-10",
+    "specializations": ["кроссфит", "выносливость"]
+  },
+  {
+    "id": 4,
+    "name": "Екатерина Соколова",
+    "experience": 12,
+    "isAvailable": true,
+    "hireDate": "2012-05-20",
+    "specializations": ["реабилитация", "пилатес"]
+  },
+  {
+    "id": 5,
+    "name": "Михаил Громов",
+    "experience": 6,
+    "isAvailable": true,
+    "hireDate": "2018-09-14",
+    "specializations": ["бокс", "единоборства"]
+  },
+  {
+    "id": 6,
+    "name": "Ольга Лебедева",
+    "experience": 4,
+    "isAvailable": false,
+    "hireDate": "2020-02-28",
+    "specializations": ["танцы", "аэробика"]
+  },
+  {
+    "id": 7,
+    "name": "Артем Волков",
+    "experience": 10,
+    "isAvailable": true,
+    "hireDate": "2014-10-05",
+    "specializations": ["пауэрлифтинг", "тяжелая атлетика"]
+  },
+  {
+    "id": 8,
+    "name": "Мария Власова",
+    "experience": 2,
+    "isAvailable": true,
+    "hireDate": "2022-08-12",
+    "specializations": ["функциональный тренинг", "TRX"]
+  },
+  {
+    "id": 9,
+    "name": "Игорь Никитин",
+    "experience": 15,
+    "isAvailable": true,
+    "hireDate": "2009-01-15",
+    "specializations": ["бодибилдинг", "подготовка к соревновниям"]
+  },
+  {
+    "id": 10,
+    "name": "Наталья Кузнецова",
+    "experience": 7,
+    "isAvailable": true,
+    "hireDate": "2017-12-03",
+    "specializations": ["стретчинг", "здоровая спина"]
+  }
+]

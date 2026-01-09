@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": "Лев Толстой",
+    "birthYear": 1828,
+    "isAlive": false,
+    "nationality": "Русский",
+    "awards": [
+      "Орден Святой Анны"
+    ],
+    "booksCount": 50
+  },
+  {
+    "id": 2,
+    "name": "Фёдор Достоевский",
+    "birthYear": 1821,
+    "isAlive": false,
+    "nationality": "Русский",
+    "awards": [],
+    "booksCount": 25
+  },
+  {
+    "name": "Мой любимый писатель",
+    "birthYear": 1985,
+    "nationality": "Русский",
+    "isAlive": true,
+    "booksCount": 10,
+    "id": 4,
+    "awards": []
+  }
+]

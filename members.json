@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "fullName": "Алексей Иванов",
+    "age": 25,
+    "hasMembership": true,
+    "membershipStart": "2024-01-10",
+    "trainings": ["грудь", "спина"]
+  },
+  {
+    "id": 2,
+    "fullName": "Мария Кузнецова",
+    "age": 30,
+    "hasMembership": false,
+    "membershipStart": "2023-11-05",
+    "trainings": ["йога"]
+  },
+  {
+    "id": 3,
+    "fullName": "Дмитрий Соколов",
+    "age": 22,
+    "hasMembership": true,
+    "membershipStart": "2024-02-15",
+    "trainings": ["ноги", "плечи"]
+  },
+  {
+    "id": 4,
+    "fullName": "Елена Петрова",
+    "age": 35,
+    "hasMembership": true,
+    "membershipStart": "2024-03-01",
+    "trainings": ["кардио", "растяжка"]
+  },
+  {
+    "id": 5,
+    "fullName": "Сергей Волков",
+    "age": 28,
+    "hasMembership": true,
+    "membershipStart": "2024-01-20",
+    "trainings": ["руки", "пресс"]
+  },
+  {
+    "id": 6,
+    "fullName": "Анна Белова",
+    "age": 24,
+    "hasMembership": false,
+    "membershipStart": "2023-12-10",
+    "trainings": ["пилатес"]
+  },
+  {
+    "id": 7,
+    "fullName": "Максим Морозов",
+    "age": 40,
+    "hasMembership": true,
+    "membershipStart": "2024-04-05",
+    "trainings": ["бассейн", "силовые"]
+  },
+  {
+    "id": 8,
+    "fullName": "Виктория Орлова",
+    "age": 27,
+    "hasMembership": true,
+    "membershipStart": "2024-02-28",
+    "trainings": ["функциональный тренинг"]
+  },
+  {
+    "id": 9,
+    "fullName": "Артем Козлов",
+    "age": 31,
+    "hasMembership": false,
+    "membershipStart": "2023-10-15",
+    "trainings": ["бокс"]
+  },
+  {
+    "id": 10,
+    "fullName": "Ксения Зайцева",
+    "age": 26,
+    "hasMembership": true,
+    "membershipStart": "2024-05-12",
+    "trainings": ["йога", "танцы"]
+  }
+]

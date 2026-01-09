@@ -1,0 +1,115 @@
+Helena
+
+- GET  - Информация о API и доступные маршруты
+- PUT - полностью заменяет ресурс (все поля обязательны)
+- PATCH- частично обновляет только переданные поля
+- При отправке POST запросов без тела будут сгенерированы случайные данные
+  - Для книг: случайные названия, авторы, жанры, теги и рейтинги
+  - Для авторов: случайные имена, годы рождения, национальности и награды
+
+GET http://localhost:3000/books
+
+POST http://localhost:3000/books
+Content-Type application/json
+
+PATCH http://localhost:3000/books/1
+Content-Type  application/json
+{
+  "title": "Новое название",
+  "rating": 5
+}
+
+DELETE http://localhost:3000/books/3
+
+
+Книги (Books)
+- GET /books - Получить список всех книг
+- GET /books/:id - Получить книгу по ID
+- POST /books - Создать новую книгу
+- PUT /books/:id - Полностью обновить книгу
+- PATCH /books/:id - Частично обновить книгу
+- DELETE /books/:id - Удалить книгу
+
+
+- GET /authors - Получить список всех авторов
+- GET /authors/:id - Получить автора по ID
+- POST /authors - Создать нового автора
+- PUT /authors/:id - Полностью обновить автора
+- PATCH /authors/:id - Частично обновить автора
+- DELETE /authors/:id - Удалить автора
+- GET /test-req-res - Проверка работы методов req/res
+
+Helena
+
+Anastasia
+GET / — Информация о API и доступные маршруты.
+PUT — Полностью заменяет ресурс (требует передачи всех полей объекта).
+PATCH — Частично обновляет ресурс (изменяет только те поля, которые присланы в body).
+POST — Создание новой записи.
+      Рандомайзер: Если отправить POST запрос с пустым телом, сервер автоматически сгенерирует случайную косметическую единицу или бренд со всеми необходимыми типами данных (string, number, boolean, Date, Array).
+
+GET http://localhost:3000/products
+POST http://localhost:3000/products Content-Type: application/json
+PATCH http://localhost:3000/products/1
+{
+  "price": 2400,
+  "rating": 5.0
+}
+
+DELETE http://localhost:3000/brands/2
+
+
+Товары (Products)
+GET /products — Получить список всех товаров.
+GET /products/:id — Получить конкретный товар по его ID.
+POST /products — Добавить новый товар (или сгенерировать случайный).
+PUT /products/:id — Полное обновление данных товара.
+PATCH /products/:id — Изменение части данных товара.
+DELETE /products/:id — Удалить товар из базы.
+
+Бренды (Brands)
+GET /brands — Список всех косметических брендов.
+GET /brands/:id — Информация о бренде по ID (включая его товары).
+POST /brands — Добавить новый бренд (поддерживает рандом).
+PUT /brands/:id — Полное редактирование бренда.
+PATCH /brands/:id — Частичное редактирование данных бренда.
+DELETE /brands/:id — Удалить бренд.
+
+Anastasia
+
+
+Margarita
+
+GET — Информация о API и доступные маршруты.
+PUT — Полностью заменяет ресурс (требует передачи всех полей объекта). 
+PATCH — Частично обновляет ресурс (изменяет только те поля, которые присланы в body). 
+POST — Создание новой записи. Рандомайзер: Если отправить POST запрос с пустым телом, сервер автоматически сгенерирует случайного тренера или клиента со всеми необходимыми типами данных.
+
+GET http://localhost:3000/trainers 
+POST http://localhost:3000/trainers 
+Content-Type: application/json 
+
+PATCH http://localhost:3000/trainers/1 { 
+    "experience": 10, 
+    "isAvailable": true 
+    }
+
+DELETE http://localhost:3000/members/2
+
+Тренеры (Trainers)
+GET /trainers — Получить список всех тренеров. 
+GET /trainers/:id — Получить конкретного тренера по его ID. 
+POST /trainers — Добавить нового тренера (или сгенерировать случайного). 
+PUT /trainers/:id — Полное обновление данных тренера. 
+PATCH /trainers/:id — Изменение части данных тренера. 
+DELETE /trainers/:id — Удалить тренера из базы.
+
+Клиенты (Members)
+GET /members — Список всех зарегистрированных клиентов. 
+GET /members/:id — Информация о клиенте по ID. 
+POST /members — Добавить нового клиента.
+PUT /members/:id — Полное редактирование профиля клиента. 
+PATCH /members/:id — Частичное редактирование данных клиента. 
+DELETE /members/:id — Удалить клиента.
+
+Margarita

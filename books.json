@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "Война и мир",
+    "authorId": 1,
+    "year": 1869,
+    "genre": "Роман",
+    "isAvailable": true,
+    "publishedDate": "1869-01-01T00:00:00.000Z",
+    "tags": [
+      "классика",
+      "исторический",
+      "роман"
+    ],
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "title": "Преступление и наказание",
+    "authorId": 2,
+    "year": 1866,
+    "genre": "Роман",
+    "isAvailable": true,
+    "publishedDate": "1866-01-01T00:00:00.000Z",
+    "tags": [
+      "психологический",
+      "философский",
+      "классика"
+    ],
+    "rating": 5
+  },
+  {
+    "title": "Моя любимая книга",
+    "authorId": 1,
+    "genre": "Роман",
+    "year": 2024,
+    "id": 4,
+    "isAvailable": true,
+    "rating": 0,
+    "tags": [],
+    "publishedDate": "2025-12-29T08:04:25.426Z"
+  }
+]
